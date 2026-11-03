@@ -150,7 +150,7 @@ export default function KnowledgeExtraction({
                 metadata: {
                   evidence_excerpt: entity.evidence_excerpt,
                   confidence: entity.confidence,
-                  extraction_method: "NetMind Qwen3.6-Flash",
+                  extraction_method: "Local rule-based extractor",
                 },
               })
               .select("id")
